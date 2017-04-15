@@ -11,10 +11,10 @@
     <url>http://maven.apache.org</url>
 	
     <modules>
-	<module>spring-boot-reg</module>
-	<module>spring-boot-provider</module>
-	<module>spring-boot-consumer</module>
-        <module>spring-boot-consumer-feign</module>
+	    <module>spring-cloud-reg</module>
+	    <module>spring-cloud-provider</module>
+	    <module>spring-cloud-consumer</module>
+        <module>spring-cloud-consumer-feign</module>
     </modules>
 
     <properties>

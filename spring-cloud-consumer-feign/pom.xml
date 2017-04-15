@@ -3,12 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.karl.spring.boot</groupId>
-    <artifactId>spring-boot-provider</artifactId>
+    <artifactId>spring-cloud-consumer-feign</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-
-    <name>spring-boot-provider</name>
-    <url>http://maven.apache.org</url>
+    <name>spring-cloud-consumer-feign</name>
 
     <parent>
         <groupId>com.karl.spring.boot</groupId>
@@ -17,9 +15,12 @@
         <relativePath>../</relativePath>
     </parent>
 
-
-
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -28,9 +29,8 @@
 
     </dependencies>
 
-
     <build>
-        <finalName>spring-boot-provider</finalName>
+        <finalName>spring-cloud-consumer-feign</finalName>
         <plugins>
             <!-- jdk编译插件 -->
             <plugin>

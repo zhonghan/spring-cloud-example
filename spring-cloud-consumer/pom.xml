@@ -3,10 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.karl.spring.boot</groupId>
-    <artifactId>spring-boot-consumer-feign</artifactId>
+    <artifactId>spring-cloud-consumer</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>spring-boot-consumer-feign</name>
+
+    <name>spring-cloud-consumer</name>
 
     <parent>
         <groupId>com.karl.spring.boot</groupId>
@@ -19,7 +20,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
 
         <dependency>
@@ -30,7 +31,7 @@
     </dependencies>
 
     <build>
-        <finalName>spring-boot-consumer</finalName>
+        <finalName>spring-cloud-consumer</finalName>
         <plugins>
             <!-- jdk编译插件 -->
             <plugin>
